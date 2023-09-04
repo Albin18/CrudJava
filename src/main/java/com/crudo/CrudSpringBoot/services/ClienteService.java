@@ -14,7 +14,6 @@ public class ClienteService implements interClienteService{
     private interCliente data;
     @Override
     public List<Cliente> listar() {
-
         return (List<Cliente>) data.findAll();
     }
 
